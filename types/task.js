@@ -12,9 +12,10 @@ class Task {
     }
 
     validate() {
-        if (this.description.length === 0) this.errors.push("Insira uma descrição");
+        if (this.description.length === 0) this.errors.push("Insert description");
+        if (this.responsable.length === 0) this.errors.push("Insert responsable");
         
-        if (!Task.validateStatus(this.status)) this.errors.push("Status inválido");
+        if (!Task.validateStatus(this.status)) this.errors.push("Invalid Status");
 
         if (this.errors.length > 0) return false;
 

@@ -16,10 +16,10 @@ class TaskController {
     async getTasks(req, res) {
         try {
             const result = await this.service.getAllTasks();
-            res.status(200).send(new ApiResponse(result));
+            return res.status(200).send(new ApiResponse(result));
         } catch (e) {
             console.error(e)
-            res.status(500).send(new ApiResponse([], false, [e.message]));
+            return res.status(500).send(new ApiResponse([], false, [e.message]));
         }
     }
 
@@ -33,14 +33,14 @@ class TaskController {
             );
 
             if (!task.validate())
-                res.status(400).send(new ApiResponse(null, false, task.errors));
+                return res.status(400).send(new ApiResponse(null, false, task.errors));
 
             const result = await this.service.insertTask(task);
 
-            res.status(201).send(new ApiResponse(result));
+            return res.status(201).send(new ApiResponse(result));
         } catch (e) {
             console.error(e)
-            res.status(500).send(new ApiResponse([], false, [e.message]));
+            return res.status(500).send(new ApiResponse([], false, [e.message]));
         }
     }
 
@@ -50,14 +50,14 @@ class TaskController {
             const status = req.body.status;
 
             if (!Task.validateStatus(status))
-                res.status(400).send(new ApiResponse(null, false, ["Status inválido"]));
+                return res.status(400).send(new ApiResponse(null, false, ["Status inválido"]));
 
             const result = await this.service.updateTaskStatus(id, status);
 
-            res.status(204).send(new ApiResponse(result));
+            return res.status(204).send(new ApiResponse(result));
         } catch (e) {
             console.error(e)
-            res.status(500).send(new ApiResponse([], false, [e.message]));
+            return res.status(500).send(new ApiResponse([], false, [e.message]));
         }
     }
 }
@@ -71,4 +71,4 @@ const setTaskRoutes = (app) => {
     app.put("/update-tasks", controller.updateTaskStatus);
 };
 
-module.exports = { setTaskRoutes };
+module.exports = { TaskController, setTaskRoutes };
