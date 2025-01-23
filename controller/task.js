@@ -18,6 +18,7 @@ class TaskController {
             const result = await this.service.getAllTasks();
             res.status(200).send(new ApiResponse(result));
         } catch (e) {
+            console.error(e)
             res.status(500).send(new ApiResponse([], false, [e.message]));
         }
     }
@@ -38,6 +39,7 @@ class TaskController {
 
             res.status(201).send(new ApiResponse(result));
         } catch (e) {
+            console.error(e)
             res.status(500).send(new ApiResponse([], false, [e.message]));
         }
     }
@@ -54,6 +56,7 @@ class TaskController {
 
             res.status(204).send(new ApiResponse(result));
         } catch (e) {
+            console.error(e)
             res.status(500).send(new ApiResponse([], false, [e.message]));
         }
     }
