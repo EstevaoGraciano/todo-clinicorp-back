@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "todo-clinicorp",
+  "private_key_id": "0577d7646c53d9f95eccb8b2b6281ab629ca6de1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5MKt4SWL7AcZ4\nD2Pqxq0LIciT8T8sCSg3Jm6zgJRiqvNpWlN5K9c4koqhiMDEsDlss1/RHvfDnLAJ\nNxJMgYhFloBRpa2mVnle+cydjSNE3VEqMiZMjZqz/2QRpBDFIrqfahMGHi4stR7f\nK8sd7AYHD52qTcxUoz9uQi0SNCyI3/Hg5Gv8nVcnmW+KuCe9H4YQH71Dz5c7gQS1\nmDWV9gwmihhpPR86iVoFM3Iwb5uPoUHk31MiaMdJL+NnceOBDVDrl3Dbqd3n/aNn\nNUdHueaM6SDj41PJ3NfdSc4kTeeozo1HL8ygdPhHUnCJq3T0u9+4FQqnBHX0DQkM\nfXrhMyvVAgMBAAECggEAA20blwegja1MOzdprVPMqsqOt/H8LbfjpxWOccK8vBCW\nnUnfBnxhqHnJl9B8ZIcwIMs2yBsvEU7qUNlUfNbeqw7sQ9ZxXoT2DORJPVb5opIH\nqOSxobPy+0aL1um2p7cLRdzEClZvm0MklZNtWBngSKwoyhhTYfN9PnB5/f66HjQi\naI/HWnDb8ksjtP6lBSj6Ncy317xmbg0D1yDgBpuCvw9i7OrL+qBgEemyg4XuEJIi\nvKq+mJu0r4mdx0WKYtnFOLtEoMXXmG4sqCcswHlC7SPIwr9K+MGGJ5a9aqOclCgj\nlP2sMDCW56XI/XN07YaVnkTiXksW8fDY3WFgKuVsgQKBgQDjQMe1oOmt761rmtHH\nG38+qxhy/iEUIFBpnOoa4x+EAqhRB17sfUsX4dsgN+TX7/OfzH+zyxVA5/1jgT06\nE+mOsPxZ4qNjaRoCYZfZO6anX7cH0X7K0ixL2t71pPyfO/gmnKQYotja+Iqa5kgM\natow1HxP6VFxkgn2yYHkn9WzQQKBgQDQncAK3vt4agxRmykywD206ini04Mx1Hi7\nKJNB+SNPVIUzGiQbALs1Tbn8NDME+DTntJ3Z9j8Wo235Ah0WSfPr7XBCWic7aiQc\nrWV/20zoUNU4UCNanQIrSUZshx+e0+41cc1u+phmT1+3ZW6Euoudm2NjnFlXJBaJ\nZhX38/cXlQKBgErBybC3IYgle0AVqwK7ye0cratObCVJyAomI2D67CgqE6KsMQ7M\n3MIbe1Eq8e4TMmqUBEJqATDb4CA2qKSNXlyhXjJXevY94d98qU498EHJG9XHldU0\ntHuzoXrfbncXbDePee/cykemUTpJnNPw5pv/mnFTSIZ6yypS+Zby+YLBAoGBAIh2\niIcT8b+E72X6b2qpYjQT8S5VWb6g1BDpq9o+FKDyEueos/GN+ugVXhHiO3WGv2TK\nO2+2qvIuGeQHQ+uumIa+HO7qdjthZRn1Oy310EsvhSp/EYFWr3KNTin0AfUtgOco\n+E8eUc6rIVugWDkupeGFIfCo97APBUb/pmM6DWo5AoGAclar3fNvuQRMe6MG4qnf\nyq+unQHKzCyz7+EtOOddBjMOfCbSDymymg7DzRqN/+Bg3x21UBudGHwPL7J9xRty\nOUHa041Z7tbzQFYd4bxGqAYrz975oq0jMh2ZCpC9duawRux3Tz0TAPas5v66rYpO\nJY0AEAnzQgXLtT9hpmx2+3s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@todo-clinicorp.iam.gserviceaccount.com",
+  "client_id": "117867311463676885173",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40todo-clinicorp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
