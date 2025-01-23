@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("Main");
+    res.send("TODO List - Estêvão Graciano");
 });
 
 setTaskRoutes(app);
