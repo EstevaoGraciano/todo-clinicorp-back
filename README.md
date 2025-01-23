@@ -25,3 +25,11 @@ Para realizar testes, basta usar o comando:
 -npm run test
 
 -------------------
+
+O repositório do frontend se encontra no seguinte link:
+
+https://github.com/EstevaoGraciano/todo-clinicorp-front
+
+O frontend também se encontra hospedado para facilitar o teste, no seguinte link:
+
+https://todo-clinicorp-front-1.onrender.com
